@@ -9,5 +9,6 @@
         public string? CustomerDistrict { get; set; }
         public decimal CustomerBalance { get; set; }
         public string? CustomerImageUrl { get; set; }
+        public List<Order> Orders { get; set; }
     }
 }
