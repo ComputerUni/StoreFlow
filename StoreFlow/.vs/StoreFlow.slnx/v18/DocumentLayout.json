@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\views\\shared\\components\\_activitydashboardcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:views\\shared\\components\\_activitydashboardcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\views\\shared\\components\\_statisticwidgetcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:views\\shared\\components\\_statisticwidgetcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\viewcomponents\\_activitydashboardcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:viewcomponents\\_activitydashboardcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\viewcomponents\\statisticviewcomponents\\_statisticwidgetcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:viewcomponents\\statisticviewcomponents\\_statisticwidgetcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\views\\dashboard\\statistic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:views\\dashboard\\statistic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -21,8 +29,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 976,
-          "SelectedChildIndex": -1,
+          "DockedWidth": 877,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,50 +55,76 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_StatisticWidgetComponentPartial.cs",
+              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\ViewComponents\\StatisticViewComponents\\_StatisticWidgetComponentPartial.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\StatisticViewComponents\\_StatisticWidgetComponentPartial.cs",
+              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\ViewComponents\\StatisticViewComponents\\_StatisticWidgetComponentPartial.cs",
+              "RelativeToolTip": "ViewComponents\\StatisticViewComponents\\_StatisticWidgetComponentPartial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T14:40:00.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Statistic.cshtml",
+              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Dashboard\\Statistic.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\Statistic.cshtml",
+              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Dashboard\\Statistic.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\Statistic.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-14T14:18:21.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T14:17:55.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-14T14:17:54.087Z",
+              "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 976,
+          "DockedWidth": 1075,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Shared\\Components\\_ActivityDashboardComponentPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Components\\_ActivityDashboardComponentPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Shared\\Components\\_ActivityDashboardComponentPartial\\Default.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Components\\_ActivityDashboardComponentPartial\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Shared\\Components\\_StatisticWidgetComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\_StatisticWidgetComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Shared\\Components\\_StatisticWidgetComponentPartial\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\_StatisticWidgetComponentPartial\\Default.cshtml",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAAANMAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-14T11:16:01.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_ActivityDashboardComponentPartial.cs",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\ViewComponents\\_ActivityDashboardComponentPartial.cs",
-              "RelativeDocumentMoniker": "ViewComponents\\_ActivityDashboardComponentPartial.cs",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\ViewComponents\\_ActivityDashboardComponentPartial.cs",
-              "RelativeToolTip": "ViewComponents\\_ActivityDashboardComponentPartial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-14T11:15:11.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Dashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Dashboard\\Index.cshtml",
-              "RelativeToolTip": "Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACYAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-13T14:28:10.893Z",
+              "WhenOpened": "2026-08-14T14:38:30.504Z",
               "EditorCaption": ""
             }
           ]

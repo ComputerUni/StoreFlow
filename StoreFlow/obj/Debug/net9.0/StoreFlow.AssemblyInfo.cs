@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StoreFlow")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89ad022a870e0e501c619ddcdbf5e802fc19e7da")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2335e37957f8c023156c59daaf4cfb26bf2964b")]
 [assembly: System.Reflection.AssemblyProductAttribute("StoreFlow")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StoreFlow")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

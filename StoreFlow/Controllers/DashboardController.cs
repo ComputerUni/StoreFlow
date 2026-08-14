@@ -8,5 +8,10 @@ namespace StoreFlow.Controllers
         {
             return View();
         }
+
+        public IActionResult Statistic()
+        {
+            return View();
+        }
     }
 }

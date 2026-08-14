@@ -7,7 +7,7 @@ namespace StoreFlow.ViewComponents
     {
         public IViewComponentResult Invoke()
         {
-            var activities = _context.Activities.ToList();
+            var activities = _context.Activities.Take(5).ToList();
             return View(activities);
         }
     }

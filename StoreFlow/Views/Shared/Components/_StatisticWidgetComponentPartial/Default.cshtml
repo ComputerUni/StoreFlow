@@ -1,0 +1,227 @@
+﻿<div class="row">
+    <div class="col-md-4 grid-margin">
+        <div class="card" style="background: linear-gradient(135deg, #4e73df, #224abe); color: white;">
+            <div class="card-body">
+                <h4 class="card-title mb-0 text-white font-weight-bold">Kategori Sayısı</h4>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-inline-block pt-3">
+                        <div class="d-md-flex">
+                            <h2 class="mb-0">@ViewBag.categoryCount</h2>
+                        </div>
+                        <small class="text-white font-weight-bold">Toplam @ViewBag.categoryCount kategori vardır.</small>
+                    </div>
+                    <div class="d-inline-block">
+                        <i class="fas fa-chart-pie text-white icon-lg"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 grid-margin">
+        <div class="card" style="background: linear-gradient(135deg, #1cc88a, #13855c); color: white;">
+            <div class="card-body">
+                <h4 class="card-title mb-0 text-white font-weight-bold">En Yüksek Ürün Fiyatı</h4>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-inline-block pt-3">
+                        <div class="d-md-flex">
+                            <h2 class="mb-0">@ViewBag.productMaxPrice TL</h2>
+                        </div>
+                        <small class="text-white font-weight-bold">En Yüksek Fiyatlı Ürünün Adı <bold style="font-weight:bold">@ViewBag.productMaxPriceName</bold></small>
+                    </div>
+                    <div class="d-inline-block">
+                        <i class="fas fa-arrow-up text-white icon-lg"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 grid-margin">
+        <div class="card" style="background: linear-gradient(135deg, #e74a3b, #be2617); color: white;">
+            <div class="card-body">
+                <h4 class="card-title mb-0 text-white font-weight-bold">En Düşük Ürün Fiyatı</h4>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-inline-block pt-3">
+                        <div class="d-md-flex">
+                            <h2 class="mb-0">@ViewBag.productMinPrice</h2>
+                        </div>
+                        <small class="text-white font-weight-bold">En Düşük Fiyatlı Ürünün Adı <bold style="font-weight:bold">@ViewBag.productMinPriceName</bold></small>
+                    </div>
+                    <div class="d-inline-block">
+                        <i class="fas fa-arrow-down text-white icon-lg"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4 grid-margin">
+        <div class="card" style="background: linear-gradient(135deg, #f6c23e, #dda20a); color: white;">
+            <div class="card-body">
+                <h4 class="card-title mb-0 text-white font-weight-bold">Ürün Stok Sayısı</h4>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-inline-block pt-3">
+                        <div class="d-md-flex">
+                            <h2 class="mb-0">@ViewBag.totalSumProductStock</h2>
+                        </div>
+                        <small class="text-white font-weight-bold">Stok sayısı en yüksek olan ürünün adı <bold style="font-weight:bold">@ViewBag.totalMaxSumProductStockName</bold> ve stok sayısı <bold style="font-weight:bold">@ViewBag.totalMaxSumProductStock</bold>.</small>
+                    </div>
+                    <div class="d-inline-block">
+                        <i class="fas fa-cubes text-white icon-lg"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 grid-margin">
+        <div class="card" style="background: linear-gradient(135deg, #6f42c1, #4e2d8c); color: white;">
+            <div class="card-body">
+                <h4 class="card-title mb-0 text-white font-weight-bold">Ortalama Ürün Stok Sayısı</h4>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-inline-block pt-3">
+                        <div class="d-md-flex">
+                            <h2 class="mb-0">@ViewBag.avgProductStock</h2>
+                        </div>
+                        <small class="text-white font-weight-bold">Stok sayısı en az olan ürünün adı <bold style="font-weight:bold">@ViewBag.totalMinSumProductStockName</bold> ve stok sayısı <bold style="font-weight:bold">@ViewBag.totalMinSumProductStock</bold>.</small>
+                    </div>
+                    <div class="d-inline-block">
+                        <i class="fas fa-box text-white icon-lg"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 grid-margin">
+        <div class="card" style="background: linear-gradient(135deg, #36b9cc, #1a8a9a); color: white;">
+            <div class="card-body">
+                <h4 class="card-title mb-0 text-white font-weight-bold">Ortalama Ürün Fiyatı</h4>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-inline-block pt-3">
+                        <div class="d-md-flex">
+                            <h2 class="mb-0">@ViewBag.avgProductPrice TL</h2>
+                        </div>
+                        <small class="text-white font-weight-bold">En Çok Sipariş Edilen Ürünün Adı <bold style="font-weight:bold">@ViewBag.productMinPriceName</bold> ve <bold style="font-weight:bold">@ViewBag.totalMaxOrderProductCount</bold> adet satıldı.</small>
+                    </div>
+                    <div class="d-inline-block">
+                        <i class="fas fa-tag text-white icon-lg"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4 grid-margin">
+        <div class="card" style="background: linear-gradient(135deg, #fd7e14, #c96209); color: white;">
+            <div class="card-body">
+                <h4 class="card-title mb-0 text-white font-weight-bold">Fiyatı 1000 TL'den Yüksek Ürün Sayısı</h4>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-inline-block pt-3">
+                        <div class="d-md-flex">
+                            <h2 class="mb-0">@ViewBag.biggerPriceThen1000ProductCount</h2>
+                        </div>
+                        <small class="text-white font-weight-bold">Fiyatı 1000 TL'den yüksek ürün sayısı.</small>
+                    </div>
+                    <div class="d-inline-block">
+                        <i class="fas fa-clock text-white icon-lg"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 grid-margin">
+        <div class="card" style="background: linear-gradient(135deg, #e83e8c, #b02571); color: white;">
+            <div class="card-body">
+                <h4 class="card-title mb-0 text-white font-weight-bold">4 Nolu ID'ye Ait Ürün Adı</h4>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-inline-block pt-3">
+                        <div class="d-md-flex">
+                            <h2 class="mb-0">@ViewBag.getIDIs4ProductName</h2>
+                        </div>
+                        <small class="text-white font-weight-bold">ID değeri 4 olan ürün adı.</small>
+                    </div>
+                    <div class="d-inline-block">
+                        <i class="fas fa-coffee text-white icon-lg"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 grid-margin">
+        <div class="card" style="background: linear-gradient(135deg, #1e3a5f, #0d1f33); color: white;">
+            <div class="card-body">
+                <h4 class="card-title mb-0 text-white font-weight-bold">Stok sayısı 50-100 arasındaki ürün sayısı</h4>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-inline-block pt-3">
+                        <div class="d-md-flex">
+                            <h2 class="mb-0">@ViewBag.stockCountBigger50AndSmaller100ProductCount</h2>
+                        </div>
+                        <small class="text-white font-weight-bold">Stok sayısı 50'den büyük 100'den küçük ürün sayısı</small>
+                    </div>
+                    <div class="d-inline-block">
+                        <i class="fas fa-tag text-white icon-lg"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4 grid-margin">
+        <div class="card" style="background: linear-gradient(135deg, #a29bfe, #6c5ce7); color: white;">
+            <div class="card-body">
+                <h4 class="card-title mb-0 text-white font-weight-bold">Fiyatı 1000 TL'den Yüksek Ürün Sayısı</h4>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-inline-block pt-3">
+                        <div class="d-md-flex">
+                            <h2 class="mb-0">@ViewBag.biggerPriceThen1000ProductCount</h2>
+                        </div>
+                        <small class="text-white font-weight-bold">Fiyatı 1000 TL'den yüksek ürün sayısı.</small>
+                    </div>
+                    <div class="d-inline-block">
+                        <i class="fas fa-clock text-white icon-lg"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 grid-margin">
+        <div class="card" style="background: linear-gradient(135deg, #d63031, #74040a); color: white;">
+            <div class="card-body">
+                <h4 class="card-title mb-0 text-white font-weight-bold">4 Nolu ID'ye Ait Ürün Adı</h4>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-inline-block pt-3">
+                        <div class="d-md-flex">
+                            <h2 class="mb-0">@ViewBag.getIDIs4ProductName</h2>
+                        </div>
+                        <small class="text-white font-weight-bold">ID değeri 4 olan ürün adı.</small>
+                    </div>
+                    <div class="d-inline-block">
+                        <i class="fas fa-coffee text-white icon-lg"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 grid-margin">
+        <div class="card" style="background: linear-gradient(135deg, #2d3436, #636e72); color: white;">
+            <div class="card-body">
+                <h4 class="card-title mb-0 text-white font-weight-bold">Stok sayısı 50-100 arasındaki ürün sayısı</h4>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-inline-block pt-3">
+                        <div class="d-md-flex">
+                            <h2 class="mb-0">@ViewBag.stockCountBigger50AndSmaller100ProductCount</h2>
+                        </div>
+                        <small class="text-white font-weight-bold">Stok sayısı 50'den büyük 100'den küçük ürün sayısı</small>
+                    </div>
+                    <div class="d-inline-block">
+                        <i class="fas fa-tag text-white icon-lg"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
