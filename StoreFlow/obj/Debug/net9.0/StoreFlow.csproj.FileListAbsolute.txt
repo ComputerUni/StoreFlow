@@ -913,3 +913,6 @@ C:\Users\BURHAN\Desktop\EFCore-LINQ\StoreFlow\obj\Debug\net9.0\compressed\2zvsen
 C:\Users\BURHAN\Desktop\EFCore-LINQ\StoreFlow\obj\Debug\net9.0\compressed\87h4vifs2i-{0}-gmmxxlwmz0-gmmxxlwmz0.gz
 C:\Users\BURHAN\Desktop\EFCore-LINQ\StoreFlow\obj\Debug\net9.0\compressed\ripf7ax9t1-{0}-34skw8x19o-34skw8x19o.gz
 C:\Users\BURHAN\Desktop\EFCore-LINQ\StoreFlow\obj\Debug\net9.0\compressed\nabp0zs4pv-{0}-pw0q22tag0-pw0q22tag0.gz
+C:\Users\BURHAN\Desktop\EFCore-LINQ\StoreFlow\bin\Debug\net9.0\X.PagedList.dll
+C:\Users\BURHAN\Desktop\EFCore-LINQ\StoreFlow\bin\Debug\net9.0\X.PagedList.Mvc.Core.dll
+C:\Users\BURHAN\Desktop\EFCore-LINQ\StoreFlow\obj\Debug\net9.0\StoreFlow.MvcApplicationPartsAssemblyInfo.cs

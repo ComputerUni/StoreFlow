@@ -1,0 +1,28 @@
+﻿@model Category
+
+@{
+    ViewData["Title"] = "AddCategory";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+
+<div class="row">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Kategori Güncelleme</h4>
+                <p class="card-description">
+                    Kategori güncelleme işlemlerinizi buradan yönetebilirsiniz.
+                </p>
+                <form class="forms-sample" method="post">
+                    <input type="hidden" asp-for="CategoryId" />
+                    <div class="form-group">
+                        <label for="exampleInputName1">Kategori Adı</label>
+                        <input type="text" asp-for="CategoryName" class="form-control" id="exampleInputName1" placeholder="Kategori Adını Yazınız...">
+                    </div>
+                    <button type="submit" class="btn btn-outline-warning mr-2">Güncelle</button>
+                    <a href="/Category/CategoryList" class="btn btn-outline-danger">İptal</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
