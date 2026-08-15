@@ -1,0 +1,41 @@
+﻿@model Product
+
+@{
+    ViewData["Title"] = "CreateProduct";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+
+<div class="row">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Ürün Ekleme</h4>
+                <p class="card-description">
+                    Ürün ekleme işlemlerinizi buradan yönetebilirsiniz.
+                </p>
+                <form class="forms-sample" method="post">
+                    <div class="form-group">
+                        <label for="exampleInputName1">Ürün Adı</label>
+                        <input type="text" asp-for="ProductName" class="form-control" id="exampleInputName1" placeholder="Ürün Adını Yazınız...">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName1">Fiyat</label>
+                        <input type="text" asp-for="ProductPrice" class="form-control" id="exampleInputName1" placeholder="Ürün Fiyatını Yazınız...">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName1">Kategori Seçiniz</label>
+                        <select asp-for="CategoryId" asp-items="@ViewBag.Categories" class="form-control">
+                            <option value="">--Kategori Seçiniz--</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName1">Stok</label>
+                        <input type="text" asp-for="ProductStock" class="form-control" id="exampleInputName1" placeholder="Stok Değerini Yazınız...">
+                    </div>
+                    <button type="submit" class="btn btn-outline-success mr-2">Ekle</button>
+                    <a href="/Product/ProductList" class="btn btn-outline-danger">İptal</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
