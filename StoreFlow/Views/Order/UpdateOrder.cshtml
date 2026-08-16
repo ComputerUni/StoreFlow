@@ -9,11 +9,12 @@
     <div class="col-12 grid-margin stretch-card">
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title">Sipariş Ekleme</h4>
+                <h4 class="card-title">Sipariş Güncelleme</h4>
                 <p class="card-description">
-                    Sipariş ekleme işlemlerinizi buradan yönetebilirsiniz.
+                    Sipariş güncelleme işlemlerinizi buradan yönetebilirsiniz.
                 </p>
                 <form class="forms-sample" method="post">
+                    <input type="hidden" asp-for="OrderId" />
                     <div class="form-group">
                         <label for="exampleInputName1">Ürün Seçiniz</label>
                         <select asp-for="ProductId" asp-items="@ViewBag.products" class="form-control">
@@ -30,7 +31,7 @@
                         <label for="exampleInputName1">Sipariş Adet</label>
                         <input type="text" asp-for="OrderCount" id="orderCount" class="form-control" id="exampleInputName1" placeholder="Sipariş Adetini Yazınız...">
                     </div>
-                 
+
                     <div class="form-group">
                         <label for="exampleInputName1">Birim Fiyat</label>
                         <input type="text" asp-for="UnitPrice" id="unitPrice" class="form-control" id="exampleInputName1" placeholder="Birim Fiyatı Yazınız...">
@@ -48,7 +49,8 @@
                         </select>
                     </div>
 
-                    <button type="submit" class="btn btn-outline-success mr-2">Ekle</button>
+
+                    <button type="submit" class="btn btn-outline-success mr-2">Güncelle</button>
                     <a href="/Order/OrderListAsync2" class="btn btn-outline-danger">İptal</a>
                 </form>
             </div>

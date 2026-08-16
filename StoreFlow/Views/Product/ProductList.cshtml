@@ -44,7 +44,10 @@
                             }
                         </tbody>
                     </table>
-                    <a href="/Product/CreateProduct/" class="btn btn-outline-info mt-2"><i class="fa fa-plus"></i>   Yeni Ürün</a>
+                    <a href="/Product/CreateProduct/" class="btn btn-outline-info mt-2"><i class="fa fa-plus"></i>    Yeni Ürün</a>
+                    <a href="/Product/First5ProductList/" class="btn btn-outline-warning mt-2"><i class="fa fa-layer-group"></i>    İlk 5 Ürün</a>
+                    <a href="/Product/Skip4ProductList/" class="btn btn-outline-dark mt-2"><i class="fa fa-object-group"></i>    4 Ürün</a>
+
                 </div>
                 <div class="d-flex align-items-center justify-content-end mt-4 pt-3 border-top">
                     @Html.PagedListPager(Model, page => Url.Action("ProductList", new { page }), new PagedListRenderOptions

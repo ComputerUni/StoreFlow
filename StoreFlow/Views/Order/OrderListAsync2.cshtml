@@ -49,6 +49,9 @@
                         </tbody>
                     </table>
                     <a href="/Order/CreateOrder/" class="btn btn-outline-info mt-2"><i class="fa fa-plus"></i>   Yeni Sipariş</a>
+                    <a href="/Order/AllStockSmallerThen5/" class="btn btn-outline-warning mt-2"><i class="fa fa-filter"></i>   Stok Sayısı < 5</a>
+                    <a href="/Order/OrderListByStatus/" class="btn btn-outline-dark mt-2"><i class="fa fa-barcode"></i>   Duruma Göre Sipariş Listesi</a>
+                    <a href="/Order/OrderListSearch/" class="btn btn-outline-danger mt-2"><i class="fa fa-search-minus"></i>   Sipariş Arama</a>
                 </div>
                 <div class="d-flex align-items-center justify-content-end mt-4 pt-3 border-top">
                     @Html.PagedListPager(Model, page => Url.Action("OrderListAsync2", new { page }), new PagedListRenderOptions

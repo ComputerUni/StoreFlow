@@ -77,15 +77,72 @@ namespace StoreFlow.Controllers
 
             ViewBag.customers = customers;
 
+            var status = await _context.Orders
+ .Select(o => o.Status)
+ .Distinct()
+ .Select(s => new SelectListItem { Value = s, Text = s })
+ .ToListAsync();
+
+            ViewBag.status = status;
+
             return View();
         }
 
         [HttpPost]
         public async Task<IActionResult> CreateOrder(Order order)
         {
-            order.Status = "Sipariş Alındı";
             order.OrderDate = DateTime.Now;
+            order.TotalPrice = order.UnitPrice * order.OrderCount;
             await _context.Orders.AddAsync(order);
+            await _context.SaveChangesAsync();
+            return RedirectToAction("OrderListAsync2");
+        }
+
+        public async Task<IActionResult> DeleteOrder(int id)
+        {
+            var value = await _context.Orders.FindAsync(id);
+            _context.Orders.Remove(value);
+            await _context.SaveChangesAsync();
+            return RedirectToAction("OrderListAsync2");
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> UpdateOrder(int id)
+        {
+            var products = await _context.Products.Select(p => new SelectListItem
+            {
+                Value = p.ProductId.ToString(),
+                Text = p.ProductName
+            }).ToListAsync();
+
+            ViewBag.products = products;
+
+            var customers = await _context.Customers.Select(c => new SelectListItem
+            {
+                Value = c.CustomerId.ToString(),
+                Text = c.CustomerName + " " + c.CustomerSurname
+            }).ToListAsync();
+
+            ViewBag.customers = customers;
+
+            var status = await _context.Orders
+    .Select(o => o.Status)
+    .Distinct()
+    .Select(s => new SelectListItem { Value = s, Text = s })
+    .ToListAsync();
+
+            ViewBag.status = status;
+
+            var value = await _context.Orders.FindAsync(id);
+
+            return View(value);
+
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> UpdateOrder(Order order)
+        {
+            _context.Orders.Update(order);
             await _context.SaveChangesAsync();
             return RedirectToAction("OrderListAsync2");
         }
