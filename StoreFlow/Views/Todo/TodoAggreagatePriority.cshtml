@@ -1,0 +1,24 @@
+﻿@model List<string>
+
+@{
+    ViewData["Title"] = "TodoAggreagatePriority";
+    Layout = "~/Views/Layout/Index.cshtml";
+    var colors = new[] { "#4e73df", "#1cc88a", "#e74a3b", "#f6c23e", "#6f42c1", "#36b9cc", "#fd7e14" };
+    int i = 0;
+}
+
+<div class="row">
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <ul style="list-style:none; padding-left:0;">
+                    @foreach (var item in Model)
+                    {
+                        <li><span style="color: @colors[i % colors.Length]; font-size: 20px; font-weight: bold;">•</span> @item</li>
+                        i++;
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
