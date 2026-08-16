@@ -43,6 +43,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVXBkYXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/BURHAN/Desktop/EFCore-LINQ/StoreFlow/Views/Customer/CustomerGetByCity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3VzdG9tZXJHZXRCeUNpdHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/BURHAN/Desktop/EFCore-LINQ/StoreFlow/Views/Customer/CustomerListOrderByCustomerName.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3VzdG9tZXJMaXN0T3JkZXJCeUN1c3RvbWVyTmFtZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -69,6 +73,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/BURHAN/Desktop/EFCore-LINQ/StoreFlow/Views/Layout/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BURHAN/Desktop/EFCore-LINQ/StoreFlow/Views/Order/AllStockSmallerThen5.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQWxsU3RvY2tTbWFsbGVyVGhlbjUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BURHAN/Desktop/EFCore-LINQ/StoreFlow/Views/Order/OrderListByStatus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcT3JkZXJMaXN0QnlTdGF0dXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/BURHAN/Desktop/EFCore-LINQ/StoreFlow/Views/Product/CreateProduct.cshtml]

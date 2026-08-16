@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "CustomerGetByCity";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+
+<div class="row">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Şehirde Müşteri Var mı ?</h4>
+                <p class="card-description">
+                    Kategori ekleme işlemlerinizi buradan yönetebilirsiniz.
+                </p>
+                <form asp-action="CustomerGetByCity" class="forms-sample" method="get">
+                    <div class="form-group">
+                        <label for="exampleInputName1">Şehir Adı</label>
+                        <input type="text" name="city" class="form-control" id="exampleInputName1" placeholder="Şehir Adını Yazınız..." required>
+                    </div>
+                    <button type="submit" class="btn btn-outline-success mr-2">Müşteriyi Kontrol Et</button>
+                    <a href="/Customer/CustomerList" class="btn btn-outline-danger">İptal</a>
+                </form>
+                <div class="alert alert-success mt-4">@ViewBag.message</div>
+            </div>
+        </div>
+    </div>
+</div>
+

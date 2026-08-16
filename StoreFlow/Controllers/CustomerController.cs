@@ -19,6 +19,20 @@ namespace StoreFlow.Controllers
             return View(customers.ToPagedList(page, 8));
         }
 
+        public IActionResult CustomerGetByCity(string city)
+        {
+            var exists = _context.Customers.Any(x => x.CustomerCity == city);
+            if(exists)
+            {
+                ViewBag.message = $"{city} şehrinde en az 1 müşteri var.";
+            }
+            else
+            {
+                ViewBag.message = $"{city} şehrinde hiç müşteri yok.";
+            }
+            return View();
+        }
+
         [HttpGet]
         public IActionResult CreateCustomer()
         {
