@@ -1,0 +1,17 @@
+﻿@model List<IGrouping<string, Customer>>
+@{
+    ViewData["Title"] = "CustomerGetByCity";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+
+@foreach(var group in Model)
+{
+    <h4>@group.Key</h4>
+    <ul>
+        @foreach(var customer in group)
+        {
+            <li>@customer.CustomerName @customer.CustomerSurname</li>
+
+        }
+    </ul>
+}

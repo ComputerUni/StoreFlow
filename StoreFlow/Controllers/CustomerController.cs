@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using StoreFlow.Context;
 using StoreFlow.Entities;
+using StoreFlow.Models;
 using X.PagedList.Extensions;
 
 namespace StoreFlow.Controllers
@@ -68,6 +69,49 @@ namespace StoreFlow.Controllers
             _context.Customers.Update(customer);
             _context.SaveChanges();
             return RedirectToAction("CustomerList");
+        }
+
+        public IActionResult CustomerListByCity()
+        {
+            var groupedCustomers = _context.Customers.ToList().GroupBy(c => c.CustomerCity).ToList();
+            return View(groupedCustomers);
+        }
+
+        public IActionResult CustomersByCityCount()
+        {
+            var query = from c in _context.Customers
+                        group c by c.CustomerCity into cityGroup
+                        //şehrin sayısına göre filtrelemek için
+                        orderby cityGroup.Count() descending
+                        select new CustomerCityGroup
+                        {
+                            City = cityGroup.Key,
+                            CustomerCount = cityGroup.Count()
+                        };
+
+            var model = query.ToList();
+            return View(model);
+        }
+
+        public IActionResult CustomerCityList()
+        {
+            var values = _context.Customers.Select(x => x.CustomerCity).Distinct().ToList();
+            return View(values);
+        }
+
+        public IActionResult ParallelCustomers()
+        {
+            var customers = _context.Customers.ToList();
+            var result = customers.AsParallel().Where(c => c.CustomerCity.StartsWith("A", StringComparison.OrdinalIgnoreCase)).ToList();
+            return View(result);
+        }
+
+        public IActionResult CustomerListExceptCityIstanbul(int page = 1)
+        {
+            var allCustomers = _context.Customers.ToList();
+            var customersListInIstanbul = _context.Customers.Where(x => x.CustomerCity == "İstanbul").Select(x => x.CustomerCity).ToList();
+            var result = allCustomers.ExceptBy(customersListInIstanbul, c => c.CustomerCity).ToList();
+            return View(result.ToPagedList(page, 7));
         }
     }
 }
