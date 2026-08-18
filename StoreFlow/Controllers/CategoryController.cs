@@ -10,13 +10,13 @@ namespace StoreFlow.Controllers
         public IActionResult CategoryList(int page = 1)
         {
             var categories = _context.Categories.ToList();
-            return View(categories.ToPagedList(page,8));
+            return View(categories.ToPagedList(page, 8));
         }
 
         public IActionResult ChangeStatus(int id)
         {
             var category = _context.Categories.Find(id);
-            if(category != null)
+            if (category != null)
             {
                 category.CategoryStatus = !category.CategoryStatus;
                 _context.SaveChanges();
@@ -61,6 +61,19 @@ namespace StoreFlow.Controllers
             _context.Categories.Update(category);
             _context.SaveChanges();
             return RedirectToAction("CategoryList");
+        }
+
+        public IActionResult ReverseCategory(int page = 1)
+        {
+            var categoryValue = _context.Categories.First();
+            ViewBag.v = categoryValue.CategoryName;
+
+            var categoryValue2 = _context.Categories.SingleOrDefault(x => x.CategoryName == "Ev Aletleri");
+            ViewBag.v2 = categoryValue2.CategoryStatus + " " + categoryValue2.CategoryId;
+
+            var values = _context.Categories.OrderBy(x => x.CategoryId).ToList();
+            values.Reverse();
+            return View(values.ToPagedList(page, 8));
         }
     }
 }

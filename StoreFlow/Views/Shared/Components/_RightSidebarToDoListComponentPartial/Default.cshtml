@@ -1,0 +1,39 @@
+﻿@model List<Todo>
+
+<div class="tab-pane fade show active scroll-wrapper" id="todo-section" role="tabpanel" aria-labelledby="todo-section">
+    <div class="list-wrapper px-3">
+        <ul class="d-flex flex-column-reverse todo-list">
+            @foreach (var todo in Model)
+            {
+                <form method="post" asp-controller="Todo" asp-action="UpdateStatus">
+                    <input type="hidden" name="id" value="@todo.TodoId" />
+                    @if (todo.Status == true)
+                    {
+                        <li class="completed">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input class="checkbox" type="checkbox" checked onchange="this.form.submit()">
+                                    @todo.Description
+                                </label>
+                            </div>
+                            <i class="remove fa fa-times-circle text-danger" title="Tamamlandı"></i>
+                        </li>
+                    }
+                    else
+                    {
+                        <li>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input class="checkbox" type="checkbox" onchange="this.form.submit()">
+                                    @todo.Description
+                                </label>
+                            </div>
+                            <i class="remove fa fa-times-circle text-danger" title="Bekliyor"></i>
+                        </li>
+                    }
+                </form>
+            }
+
+        </ul>
+    </div>
+</div>

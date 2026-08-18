@@ -113,5 +113,33 @@ namespace StoreFlow.Controllers
             var result = allCustomers.ExceptBy(customersListInIstanbul, c => c.CustomerCity).ToList();
             return View(result.ToPagedList(page, 7));
         }
+
+        public IActionResult CustomerListWithDefaultIfEmpty(int page = 1)
+        {
+            var customers = _context.Customers.Where(x => x.CustomerCity == "fdsfsd").ToList().DefaultIfEmpty(new Customer
+            {
+                CustomerId = 0,
+                CustomerName = "Kayıt Yok",
+                CustomerSurname = "----",
+                CustomerCity = "Malatya"
+            }).ToList();
+
+            return View(customers.ToPagedList(page, 8));
+        }
+
+        public IActionResult CustomerIntersectByCity()
+        {
+            var cityValues = _context.Customers.Where(x => x.CustomerCity == "Balıkesir").Select(y => y.CustomerName + " " + y.CustomerSurname).ToList();
+            var cityValues2 = _context.Customers.Where(x => x.CustomerCity == "Ankara").Select(y => y.CustomerName + " " + y.CustomerSurname).ToList();
+            var intersectValues = cityValues.Intersect(cityValues2).ToList();
+            return View(intersectValues);
+        }
+
+        public IActionResult CustomerCastExample()
+        {
+            var values = _context.Customers.ToList();
+            ViewBag.v = values;
+            return View();
+        }
     }
 }

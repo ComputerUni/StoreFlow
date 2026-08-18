@@ -1,0 +1,16 @@
+﻿@model List<string>
+
+@{
+    ViewData["Title"] = "CustomerIntersectByCity";
+    Layout = "~/Views/Layout/Index.cshtml";
+    int count = 0;
+}
+
+<h1>Kesişim Kümesi Balıkesir - Ankara Olan Müşteriler</h1>
+
+<ul>
+    @foreach(var item in Model)
+    {
+        <li>@item</li>
+    }
+</ul>
