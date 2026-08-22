@@ -9,11 +9,12 @@
     <div class="col-12 grid-margin stretch-card">
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title">Yapılacak Ekleme</h4>
+                <h4 class="card-title">Yapılacak Güncelleme</h4>
                 <p class="card-description">
-                    Yapılacak ekleme işlemlerinizi buradan yönetebilirsiniz.
+                    Yapılacak güncelleme işlemlerinizi buradan yönetebilirsiniz.
                 </p>
                 <form class="forms-sample" method="post">
+                    <input type="hidden" asp-for="TodoId" />
                     <div class="form-group">
                         <label for="exampleInputName1">Açıklama</label>
                         <input type="text" asp-for="Description" class="form-control" id="exampleInputName1" placeholder="Ürün Adını Yazınız...">
@@ -31,7 +32,7 @@
                         <label for="exampleInputName1">Öncelik</label>
                         <input type="text" asp-for="Priority" class="form-control" id="exampleInputName1" placeholder="Ürün Adını Yazınız...">
                     </div>
-                    <button type="submit" class="btn btn-outline-success mr-2">Ekle</button>
+                    <button type="submit" class="btn btn-outline-success mr-2">Güncelle</button>
                     <a href="/Todo/Index" class="btn btn-outline-danger">İptal</a>
                 </form>
             </div>

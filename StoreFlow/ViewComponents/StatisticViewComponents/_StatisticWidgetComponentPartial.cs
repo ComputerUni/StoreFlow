@@ -26,7 +26,7 @@ namespace StoreFlow.ViewComponents.StatisticViewComponents
             ViewBag.totalMinSumProductStockName = minStock?.ProductName;
             ViewBag.totalMinSumProductStock = minStock?.ProductStock;
 
-            ViewBag.avgProductStock = _context.Products.Average(x => x.ProductStock);
+            ViewBag.avgProductStock = _context.Products.Average(x => x.ProductStock).ToString("N2");
             ViewBag.avgProductPrice = _context.Products.Average(x => x.ProductPrice).ToString("N2");
 
             ViewBag.totalMaxOrderProductName = _context.Orders.Include(x => x.Product).OrderByDescending(x => x.OrderCount).Select(x => x.Product.ProductName).FirstOrDefault();
