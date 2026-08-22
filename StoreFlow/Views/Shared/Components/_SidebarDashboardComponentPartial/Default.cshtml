@@ -3,7 +3,7 @@
         <li class="nav-item nav-profile">
             <div class="nav-link">
                 <div class="profile-image">
-                    <img src="/Melody-Premium-Bootstrap-Admin-Dashboard-Template/images/faces/face5.jpg" alt="image" />
+                    <img src="/Melody-Premium-Bootstrap-Admin-Dashboard-Template/images/faces/face8.jpg" alt="image" />
                 </div>
                 <div class="profile-name">
                     <p class="name">
@@ -40,23 +40,27 @@
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="/Customer/CustomerListOrderByCustomerName">
+            <a class="nav-link" href="/Activity/ActivityList">
+                <i class="fa fa-tasks menu-icon"></i>
+                <span class="menu-title">Aktiviteler</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#customerDropdown" aria-expanded="false" aria-controls="customerDropdown">
                 <i class="fa fa-users menu-icon"></i>
-                <span class="menu-title">Müşteriler (İsme Göre)</span>
+                <span class="menu-title">Müşteriler</span>
+                <i class="menu-arrow"></i>
             </a>
+            <div class="collapse" id="customerDropdown">
+                <ul class="nav flex-column sub-menu">
+                    <li class="nav-item"> <a class="nav-link" href="/Customer/CustomerListOrderByCustomerName">İsme Göre Sırala</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="/Customer/CustomerListOrderByDescBalance">Bakiyeye Göre Sırala</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="/Customer/CustomerGetByCity">Şehre Göre Arama</a></li>
+                </ul>
+            </div>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="/Customer/CustomerListOrderByDescBalance">
-                <i class="fa fa-wallet menu-icon"></i>
-                <span class="menu-title">Müşteriler (Bakiyeye Göre)</span>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="/Customer/CustomerGetByCity">
-                <i class="fa fa-map-marked-alt menu-icon"></i>
-                <span class="menu-title">Şehre Göre Arama</span>
-            </a>
-        </li>
+
         <li class="nav-item">
             <a class="nav-link" href="/Product/ProductList">
                 <i class="fa fa-boxes menu-icon"></i>
@@ -67,6 +71,12 @@
             <a class="nav-link" href="/Order/OrderListAsync2">
                 <i class="fa fa-shopping-cart menu-icon"></i>
                 <span class="menu-title">Siparişler</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/Message/MessageList">
+                <i class="fa fa-envelope menu-icon"></i>
+                <span class="menu-title">Mesajlar</span>
             </a>
         </li>
     </ul>

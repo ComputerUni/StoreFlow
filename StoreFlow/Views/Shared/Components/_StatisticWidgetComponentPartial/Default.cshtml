@@ -125,7 +125,7 @@
                         <small class="text-white font-weight-bold">Fiyatı 1000 TL'den yüksek ürün sayısı.</small>
                     </div>
                     <div class="d-inline-block">
-                        <i class="fas fa-clock text-white icon-lg"></i>
+                        <i class="fas fa-lira-sign text-white icon-lg"></i>
                     </div>
                 </div>
             </div>
@@ -143,7 +143,7 @@
                         <small class="text-white font-weight-bold">ID değeri 4 olan ürün adı.</small>
                     </div>
                     <div class="d-inline-block">
-                        <i class="fas fa-coffee text-white icon-lg"></i>
+                        <i class="fas fa-barcode text-white icon-lg"></i>
                     </div>
                 </div>
             </div>
@@ -161,7 +161,7 @@
                         <small class="text-white font-weight-bold">Stok sayısı 50'den büyük 100'den küçük ürün sayısı</small>
                     </div>
                     <div class="d-inline-block">
-                        <i class="fas fa-tag text-white icon-lg"></i>
+                        <i class="fas fa-boxes text-white icon-lg"></i>
                     </div>
                 </div>
             </div>
@@ -173,16 +173,16 @@
     <div class="col-md-4 grid-margin">
         <div class="card" style="background: linear-gradient(135deg, #a29bfe, #6c5ce7); color: white;">
             <div class="card-body">
-                <h4 class="card-title mb-0 text-white font-weight-bold">Fiyatı 1000 TL'den Yüksek Ürün Sayısı</h4>
+                <h4 class="card-title mb-0 text-white font-weight-bold">Toplam Sipariş Adedi</h4>
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="d-inline-block pt-3">
                         <div class="d-md-flex">
-                            <h2 class="mb-0">@ViewBag.biggerPriceThen1000ProductCount</h2>
+                            <h2 class="mb-0">@ViewBag.orderCount</h2>
                         </div>
-                        <small class="text-white font-weight-bold">Fiyatı 1000 TL'den yüksek ürün sayısı.</small>
+                        <small class="text-white font-weight-bold">Sistem üzerindeki toplam sipariş miktarı.</small>
                     </div>
                     <div class="d-inline-block">
-                        <i class="fas fa-clock text-white icon-lg"></i>
+                        <i class="fas fa-shopping-cart text-white icon-lg"></i>
                     </div>
                 </div>
             </div>
@@ -191,16 +191,16 @@
     <div class="col-md-4 grid-margin">
         <div class="card" style="background: linear-gradient(135deg, #d63031, #74040a); color: white;">
             <div class="card-body">
-                <h4 class="card-title mb-0 text-white font-weight-bold">4 Nolu ID'ye Ait Ürün Adı</h4>
+                <h4 class="card-title mb-0 text-white font-weight-bold">En Değerli Kategori</h4>
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="d-inline-block pt-3">
                         <div class="d-md-flex">
-                            <h2 class="mb-0">@ViewBag.getIDIs4ProductName</h2>
+                            <h2 class="mb-0">@ViewBag.maxCategoryName</h2>
                         </div>
-                        <small class="text-white font-weight-bold">ID değeri 4 olan ürün adı.</small>
+                        <small class="text-white font-weight-bold">Ortalama ürün fiyatı en yüksek olan kategori.</small>
                     </div>
                     <div class="d-inline-block">
-                        <i class="fas fa-coffee text-white icon-lg"></i>
+                        <i class="fas fa-gem text-white icon-lg"></i>
                     </div>
                 </div>
             </div>
@@ -209,16 +209,16 @@
     <div class="col-md-4 grid-margin">
         <div class="card" style="background: linear-gradient(135deg, #2d3436, #636e72); color: white;">
             <div class="card-body">
-                <h4 class="card-title mb-0 text-white font-weight-bold">Stok sayısı 50-100 arasındaki ürün sayısı</h4>
+                <h4 class="card-title mb-0 text-white font-weight-bold">Kritik Stok (10'un Altı)</h4>
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="d-inline-block pt-3">
                         <div class="d-md-flex">
-                            <h2 class="mb-0">@ViewBag.stockCountBigger50AndSmaller100ProductCount</h2>
+                            <h2 class="mb-0">@ViewBag.criticalStockCount</h2>
                         </div>
-                        <small class="text-white font-weight-bold">Stok sayısı 50'den büyük 100'den küçük ürün sayısı</small>
+                        <small class="text-white font-weight-bold">Stoku tükenmek üzere olan acil ürün sayısı.</small>
                     </div>
                     <div class="d-inline-block">
-                        <i class="fas fa-tag text-white icon-lg"></i>
+                        <i class="fas fa-exclamation-triangle text-white icon-lg"></i>
                     </div>
                 </div>
             </div>

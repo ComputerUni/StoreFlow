@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\views\\activity\\activitylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:views\\activity\\activitylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\views\\activity\\updateactivity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:views\\activity\\updateactivity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\views\\activity\\createactivity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:views\\activity\\createactivity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\controllers\\activitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:controllers\\activitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\viewcomponents\\_dailysalesdashboardcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:viewcomponents\\_dailysalesdashboardcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\entities\\activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:entities\\activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\views\\shared\\components\\_dailysalesdashboardcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:views\\shared\\components\\_dailysalesdashboardcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\views\\category\\categorylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:views\\category\\categorylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\models\\todostatuschartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:models\\todostatuschartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\views\\shared\\components\\_sidebardashboardcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:views\\shared\\components\\_sidebardashboardcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\views\\shared\\components\\_dashboardorderdatechartcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:views\\shared\\components\\_dashboardorderdatechartcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\views\\shared\\components\\_navbardashboardcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:views\\shared\\components\\_navbardashboardcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\views\\shared\\components\\_salesstatusdashboardcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:views\\shared\\components\\_salesstatusdashboardcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\models\\customercitychartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:models\\customercitychartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\viewcomponents\\_salesstatusdashboardcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:viewcomponents\\_salesstatusdashboardcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -75,124 +75,124 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ActivityController.cs",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Controllers\\ActivityController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ActivityController.cs",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Controllers\\ActivityController.cs",
-              "RelativeToolTip": "Controllers\\ActivityController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-22T12:33:04.6Z",
+              "Title": "UpdateActivity.cshtml",
+              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Activity\\UpdateActivity.cshtml",
+              "RelativeDocumentMoniker": "Views\\Activity\\UpdateActivity.cshtml",
+              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Activity\\UpdateActivity.cshtml",
+              "RelativeToolTip": "Views\\Activity\\UpdateActivity.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwCIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-22T15:16:34.409Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_DailySalesDashboardComponentPartial.cs",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\ViewComponents\\_DailySalesDashboardComponentPartial.cs",
-              "RelativeDocumentMoniker": "ViewComponents\\_DailySalesDashboardComponentPartial.cs",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\ViewComponents\\_DailySalesDashboardComponentPartial.cs",
-              "RelativeToolTip": "ViewComponents\\_DailySalesDashboardComponentPartial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-22T12:30:21.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TodoStatusChartViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Models\\TodoStatusChartViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\TodoStatusChartViewModel.cs",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Models\\TodoStatusChartViewModel.cs",
-              "RelativeToolTip": "Models\\TodoStatusChartViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-22T12:23:14.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Shared\\Components\\_DailySalesDashboardComponentPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Components\\_DailySalesDashboardComponentPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Shared\\Components\\_DailySalesDashboardComponentPartial\\Default.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Components\\_DailySalesDashboardComponentPartial\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
+              "Title": "CreateActivity.cshtml",
+              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Activity\\CreateActivity.cshtml",
+              "RelativeDocumentMoniker": "Views\\Activity\\CreateActivity.cshtml",
+              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Activity\\CreateActivity.cshtml",
+              "RelativeToolTip": "Views\\Activity\\CreateActivity.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-22T12:22:25.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Shared\\Components\\_DashboardOrderDateChartComponentPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Components\\_DashboardOrderDateChartComponentPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Shared\\Components\\_DashboardOrderDateChartComponentPartial\\Default.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Components\\_DashboardOrderDateChartComponentPartial\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-22T12:11:02.751Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CustomerCityChartViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Models\\CustomerCityChartViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\CustomerCityChartViewModel.cs",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Models\\CustomerCityChartViewModel.cs",
-              "RelativeToolTip": "Models\\CustomerCityChartViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-22T12:07:09.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_SalesStatusDashboardComponentPartial.cs",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\ViewComponents\\_SalesStatusDashboardComponentPartial.cs",
-              "RelativeDocumentMoniker": "ViewComponents\\_SalesStatusDashboardComponentPartial.cs",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\ViewComponents\\_SalesStatusDashboardComponentPartial.cs",
-              "RelativeToolTip": "ViewComponents\\_SalesStatusDashboardComponentPartial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-22T12:05:51.463Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 877,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Dashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Dashboard\\Index.cshtml",
-              "RelativeToolTip": "Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACgAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-22T12:12:08.844Z",
+              "WhenOpened": "2026-08-22T15:13:19.461Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Shared\\Components\\_SalesStatusDashboardComponentPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Components\\_SalesStatusDashboardComponentPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Shared\\Components\\_SalesStatusDashboardComponentPartial\\Default.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Components\\_SalesStatusDashboardComponentPartial\\Default.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Shared\\Components\\_SidebarDashboardComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\_SidebarDashboardComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Shared\\Components\\_SidebarDashboardComponentPartial\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\_SidebarDashboardComponentPartial\\Default.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-22T12:09:20.309Z",
+              "WhenOpened": "2026-08-22T15:06:42.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ActivityController.cs",
+              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Controllers\\ActivityController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ActivityController.cs",
+              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Controllers\\ActivityController.cs",
+              "RelativeToolTip": "Controllers\\ActivityController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwB4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T12:33:04.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Shared\\Components\\_NavbarDashboardComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\_NavbarDashboardComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Shared\\Components\\_NavbarDashboardComponentPartial\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\_NavbarDashboardComponentPartial\\Default.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAC8AAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-22T15:06:27.71Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 877,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwDAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T14:59:38.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ActivityList.cshtml",
+              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Activity\\ActivityList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Activity\\ActivityList.cshtml",
+              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Activity\\ActivityList.cshtml",
+              "RelativeToolTip": "Views\\Activity\\ActivityList.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-22T15:07:39.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoryList.cshtml",
+              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Category\\CategoryList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\CategoryList.cshtml",
+              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Category\\CategoryList.cshtml",
+              "RelativeToolTip": "Views\\Category\\CategoryList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-22T15:07:46.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Activity.cs",
+              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Entities\\Activity.cs",
+              "RelativeDocumentMoniker": "Entities\\Activity.cs",
+              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Entities\\Activity.cs",
+              "RelativeToolTip": "Entities\\Activity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T15:08:16.07Z",
               "EditorCaption": ""
             }
           ]

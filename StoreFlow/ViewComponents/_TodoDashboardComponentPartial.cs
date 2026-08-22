@@ -7,7 +7,7 @@ namespace StoreFlow.ViewComponents
     { 
         public IViewComponentResult Invoke()
         {
-            var todos = _context.Todos.OrderByDescending(t => t.TodoId).Take(6).ToList();
+            var todos = _context.Todos.OrderBy(t => t.TodoId).Take(6).ToList();
             return View(todos);
         }
     }

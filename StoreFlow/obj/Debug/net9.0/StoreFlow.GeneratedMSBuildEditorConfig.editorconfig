@@ -31,6 +31,18 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Users/BURHAN/Desktop/EFCore-LINQ/StoreFlow/Views/Activity/ActivityList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aXZpdHlcQWN0aXZpdHlMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BURHAN/Desktop/EFCore-LINQ/StoreFlow/Views/Activity/CreateActivity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aXZpdHlcQ3JlYXRlQWN0aXZpdHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BURHAN/Desktop/EFCore-LINQ/StoreFlow/Views/Activity/UpdateActivity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aXZpdHlcVXBkYXRlQWN0aXZpdHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/BURHAN/Desktop/EFCore-LINQ/StoreFlow/Views/Category/AddCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWRkQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

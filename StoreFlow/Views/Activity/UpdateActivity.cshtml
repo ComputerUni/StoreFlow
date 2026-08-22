@@ -1,0 +1,38 @@
+﻿@model Activity
+
+@{
+    ViewData["Title"] = "UpdateActivity";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+
+<div class="row">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Aktivite Güncelleme</h4>
+                <p class="card-description">
+                    Aktivite güncelleme işlemlerinizi buradan yönetebilirsiniz.
+                </p>
+                <form class="forms-sample" method="post">
+                    <input type="hidden" asp-for="ActivityId" />
+                    <div class="form-group">
+                        <label for="exampleInputName1">Başlık</label>
+                        <input type="text" asp-for="Title" class="form-control" id="exampleInputName1" placeholder="Kategori Adını Yazınız...">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName1">Açıklama</label>
+                        <textarea asp-for="Description" class="form-control" id="exampleInputName1" placeholder="Açıklamayı Yazınız..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Saat</label>
+                        <input type="time" asp-for="ActivityTime" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-outline-success mr-2">Güncelle</button>
+                    <a href="/Activity/ActivityList" class="btn btn-outline-danger">İptal</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+

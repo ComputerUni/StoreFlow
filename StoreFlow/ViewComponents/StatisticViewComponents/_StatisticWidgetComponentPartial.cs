@@ -36,6 +36,11 @@ namespace StoreFlow.ViewComponents.StatisticViewComponents
             ViewBag.getIDIs4ProductName = _context.Products.Where(x => x.ProductId == 4).Select(y => y.ProductName).FirstOrDefault();
             ViewBag.stockCountBigger50AndSmaller100ProductCount = _context.Products.Where(x => x.ProductStock > 50 && x.ProductStock < 100).Count();
 
+
+            ViewBag.orderCount = _context.Orders.Sum(x => x.OrderCount);
+            ViewBag.maxCategoryName = _context.Categories.Include(x => x.Products).OrderByDescending(x => x.Products.Average(p => p.ProductPrice)).Select(x => x.CategoryName).FirstOrDefault();
+            ViewBag.criticalStockCount = _context.Products.Where(x => x.ProductStock < 10).Count();
+
             return View();
         }
     }
