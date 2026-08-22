@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using StoreFlow.Context;
 using StoreFlow.Entities;
+using StoreFlow.Models;
 using X.PagedList.Extensions;
 
 namespace StoreFlow.Controllers
@@ -145,6 +146,20 @@ namespace StoreFlow.Controllers
             _context.Orders.Update(order);
             await _context.SaveChangesAsync();
             return RedirectToAction("OrderListAsync2");
+        }
+
+        public IActionResult OrderListWithCustomerGroup(int page = 1)
+        {
+            var result = from customer in _context.Customers
+                         join order in _context.Orders
+                         on customer.CustomerId equals order.CustomerId
+                         into orderGroup
+                         select new CustomerOrderViewModel
+                         {
+                             CustomerName = customer.CustomerName,
+                             Orders = orderGroup.ToList()
+                         };
+            return View(result.ToPagedList(page, 8));
         }
     }
 }

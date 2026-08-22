@@ -141,5 +141,20 @@ namespace StoreFlow.Controllers
             ViewBag.v = values;
             return View();
         }
+
+        public IActionResult CustomerListWithIndex(int page = 1)
+        {
+            var customers = _context.Customers.ToList().Select((c, index) => new CustomerIndexViewModel
+            {
+                SiraNo = index + 1,
+                CustomerName = c.CustomerName,
+                CustomerSurname = c.CustomerSurname,
+                CustomerCity = c.CustomerCity
+            }).ToList();
+
+            var pagedList = customers.ToPagedList(page, 8);
+
+            return View(pagedList);
+        }
     }
 }

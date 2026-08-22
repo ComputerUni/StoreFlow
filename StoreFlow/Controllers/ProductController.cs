@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using StoreFlow.Context;
 using StoreFlow.Entities;
+using StoreFlow.Models;
 using X.PagedList.Extensions;
 
 namespace StoreFlow.Controllers
@@ -114,6 +115,21 @@ namespace StoreFlow.Controllers
             ViewBag.v2 = lastProduct.ProductName;
             ViewBag.v = values;
             return View();
+        }
+
+        public IActionResult ProductListWithCategory(int page = 1)
+        {
+            var result = from c in _context.Categories
+                         join p in _context.Products
+                         on
+                         c.CategoryId equals p.CategoryId
+                         select new ProductWithCategoryViewModel
+                         {
+                             ProductName = p.ProductName,
+                             ProductStock = p.ProductStock,
+                             CategoryName = c.CategoryName
+                         };
+            return View(result.ToPagedList(page, 8));
         }
 
     }

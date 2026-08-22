@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\views\\customer\\customercastexample.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:views\\customer\\customercastexample.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\views\\customer\\customerintersectbycity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:views\\customer\\customerintersectbycity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\views\\customer\\customerlistwithindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:views\\customer\\customerlistwithindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\views\\category\\reversecategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:views\\category\\reversecategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\models\\customerindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:models\\customerindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\views\\category\\categorylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:views\\category\\categorylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\models\\customerorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:models\\customerorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|c:\\users\\burhan\\desktop\\efcore-linq\\storeflow\\views\\order\\orderlistwithcustomergroup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{323EEE45-AFB0-B73D-F39B-8BB067184D64}|StoreFlow.csproj|solutionrelative:views\\order\\orderlistwithcustomergroup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 877,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,93 +62,80 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerIndexViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Models\\CustomerIndexViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\CustomerIndexViewModel.cs",
+              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Models\\CustomerIndexViewModel.cs",
+              "RelativeToolTip": "Models\\CustomerIndexViewModel.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T09:04:24.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CustomerCastExample.cshtml",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Customer\\CustomerCastExample.cshtml",
-              "RelativeDocumentMoniker": "Views\\Customer\\CustomerCastExample.cshtml",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Customer\\CustomerCastExample.cshtml",
-              "RelativeToolTip": "Views\\Customer\\CustomerCastExample.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
+              "Title": "CustomerListWithIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Customer\\CustomerListWithIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\CustomerListWithIndex.cshtml",
+              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Customer\\CustomerListWithIndex.cshtml",
+              "RelativeToolTip": "Views\\Customer\\CustomerListWithIndex.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-18T15:41:49.146Z",
+              "WhenOpened": "2026-08-22T08:58:53.774Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CustomerIntersectByCity.cshtml",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Customer\\CustomerIntersectByCity.cshtml",
-              "RelativeDocumentMoniker": "Views\\Customer\\CustomerIntersectByCity.cshtml",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Customer\\CustomerIntersectByCity.cshtml",
-              "RelativeToolTip": "Views\\Customer\\CustomerIntersectByCity.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-18T15:31:40.637Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
               "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Controllers\\CustomerController.cs",
               "RelativeToolTip": "Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAuwIkAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAUwJwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T15:16:07.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CategoryList.cshtml",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Category\\CategoryList.cshtml",
-              "RelativeDocumentMoniker": "Views\\Category\\CategoryList.cshtml",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Category\\CategoryList.cshtml",
-              "RelativeToolTip": "Views\\Category\\CategoryList.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-18T14:59:51.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReverseCategory.cshtml",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Category\\ReverseCategory.cshtml",
-              "RelativeDocumentMoniker": "Views\\Category\\ReverseCategory.cshtml",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Category\\ReverseCategory.cshtml",
-              "RelativeToolTip": "Views\\Category\\ReverseCategory.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-18T14:59:02.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Controllers\\CategoryController.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAmwEcAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T14:54:42.826Z",
+              "WhenOpened": "2026-08-22T08:56:16.973Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Dashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Dashboard\\Index.cshtml",
-              "RelativeToolTip": "Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAlAAAAAAAAAA==",
+              "Title": "OrderListWithCustomerGroup.cshtml",
+              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Order\\OrderListWithCustomerGroup.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\OrderListWithCustomerGroup.cshtml",
+              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Views\\Order\\OrderListWithCustomerGroup.cshtml",
+              "RelativeToolTip": "Views\\Order\\OrderListWithCustomerGroup.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-18T14:33:53.512Z",
+              "WhenOpened": "2026-08-22T08:25:01.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAYwJYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T08:22:18.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerOrderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Models\\CustomerOrderViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\CustomerOrderViewModel.cs",
+              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\EFCore-LINQ\\StoreFlow\\Models\\CustomerOrderViewModel.cs",
+              "RelativeToolTip": "Models\\CustomerOrderViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T08:21:42.118Z",
               "EditorCaption": ""
             }
           ]
