@@ -26,8 +26,8 @@ Moderni bir **ASP.NET Core 9.0 Razor Pages** uygulaması ile inşa edilmiş, tam
 | **.NET** | 9.0 | Microsoft .NET framework |
 | **Entity Framework Core** | 9.0.19 | ORM ve veri erişim katmanı |
 | **SQL Server** | 2019+ | İlişkisel veritabanı |
-| **Bootstrap** | 5.x | Responsive UI framework |
-| **jQuery** | 3.x | Frontend interaktivitesi |
+| **Bootstrap** | 5 | Responsive UI framework |
+| **jQuery** | 3 | Frontend interaktivitesi |
 | **X.PagedList** | 10.5.9 | Sayfalama ve listeleme |
 
 ---
@@ -352,21 +352,6 @@ Bu proje aşağıdaki konuları öğrenmek için harika bir kaynaktır:
 - ✅ View Components ve kısmi sayfalar
 - ✅ Veri görselleştirme (Chart.js, Morris.js)
 - ✅ Veritabanı migrasyonları ve versionlama
-
----
-
-## 🚀 Gelecek Geliştirmeler
-
-Planlanan özellikleri:
-
-- [ ] Kimlik doğrulama ve yetkilendirme (Identity)
-- [ ] Çoklu dil desteği (Localization)
-- [ ] API (REST/GraphQL) sürümü
-- [ ] Birim testler (Unit Tests)
-- [ ] CI/CD entegrasyonu
-- [ ] Azure Cloud deployment
-- [ ] Mobil uygulama (Flutter/React Native)
-- [ ] Real-time güncellemeler (SignalR)
 
 ---
 
